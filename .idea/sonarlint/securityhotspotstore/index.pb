@@ -5,12 +5,6 @@ D
 app/build.gradle.kts,d\2\d2a4383452aad84a18429a5844d31330a012a9e6
 @
 build.gradle.kts,d\b\dbcff70658daf80b53ce624f6adcaa529df5ed8d
-m
-=app/src/main/java/com/example/concatadapter/data/DataClass.kt,7\a\7adbac00355ef96230099748ab660eaa0e2c1fdc
-}
-Mapp/src/main/java/com/example/concatadapter/adapter/HorizontalRecyclerView.kt,a\0\a0d30675c2eeaab85e26cb24d3cbcd80860f9a7d
-{
-Kapp/src/main/java/com/example/concatadapter/adapter/VerticalRecyclerView.kt,e\8\e8eb665def30c336a6eb534436dfc9409356dd83
 v
 Fapp/src/main/java/com/example/concatadapter/adapter/VerticalAdapter.kt,2\5\25fc8b9b2479459c010222194c5612fd1467434b
 x
@@ -23,3 +17,7 @@ z
 Japp/src/main/java/com/example/concatadapter/adapter/VerticalCardAdapter.kt,4\c\4c440b079a4c17c44f5af07bebc4e9e6c167514d
 w
 Gapp/src/main/java/com/example/concatadapter/adapter/TitleCardAdapter.kt,e\9\e9a6b46efb84b83dbbbee66281e5ad24055d0b9e
+]
+-.idea/sonarlint/securityhotspotstore/index.pb,8\8\88a9255124c95bdc913197c120a8d560edc59c8e
+S
+#.idea/sonarlint/issuestore/index.pb,9\f\9fe84ebb15faf917b7def6236dba604453cc61e0

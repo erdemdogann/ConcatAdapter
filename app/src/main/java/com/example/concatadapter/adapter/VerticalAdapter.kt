@@ -2,6 +2,7 @@ package com.example.concatadapter.adapter
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
+import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.example.concatadapter.data.GamesData
@@ -15,7 +16,7 @@ class VerticalAdapter(
 
         fun bind(game: GamesData) {
             binding.recycler.apply {
-                layoutManager = LinearLayoutManager(context, LinearLayoutManager.VERTICAL,false)
+                layoutManager = GridLayoutManager(context,2)
 
                 adapter = HorizontalCardAdapter(games = games)
             }

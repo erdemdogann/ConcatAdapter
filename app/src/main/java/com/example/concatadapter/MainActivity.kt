@@ -51,8 +51,8 @@ class MainActivity : AppCompatActivity() {
         horizontalAdapter = HorizontalAdapter(games)
         verticalAdapter = VerticalAdapter(games)
 
-        var concatAdapter =
-            ConcatAdapter(verticalTitle, verticalAdapter, horizontalTitle, horizontalAdapter)
+        val concatAdapter =
+            ConcatAdapter(horizontalTitle, horizontalAdapter,verticalTitle, verticalAdapter)
 
         binding.mainRV.adapter = concatAdapter
         binding.mainRV.layoutManager = LinearLayoutManager(this)
